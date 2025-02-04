@@ -1,0 +1,54 @@
+DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Serás mi San Valentín?</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffe6e6;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #ff4d4d;
+      font-size: 3em;
+    }
+    p {
+      color: #333;
+      font-size: 1.2em;
+    }
+    .heart {
+      width: 150px;
+      margin: 20px auto;
+    }
+    .button-container {
+      margin-top: 30px;
+    }
+    .button {
+      background-color: #ff4d4d;
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 1em;
+    }
+    .button:hover {
+      background-color: #e63946;
+    }
+  </style>
+</head>
+<body>
+  <h1>Valentina Hernández, ¿serás mi San Valentín? ❤️</h1>
+  <img src="https://i.imgur.com/2XpsH1b.png" alt="Corazones" class="heart">
+  <p>Eres la persona más especial para mí, y este día no sería lo mismo sin ti.</p>
+  
+  <div class="button-container">
+    <a href="#" class="button">Sí, claro 💖</a>
+    <a href="#" class="button" style="background-color: #ddd; color: #555;">¡Obvio que sí! 😍</a>
+  </div>
+</body>
+</html>
